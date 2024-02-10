@@ -4,6 +4,6 @@ const width = window.innerWidth - 50
 
 button.addEventListener('mouseover', ()=>{
     button.style.position ='absolute'
-    button.style.top= Math.random()*height+'px'
-    button.style.left= Math.random()*width+'px'
+    button.style.top= Math.random()*height+20+'px'
+    button.style.left= Math.random()*width+20+'px'
 })
